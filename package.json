@@ -1,0 +1,57 @@
+{
+  "name": "dsh-brutal-delete",
+  "version": "1.0.0",
+  "description": "暴力删除 · 永久删除 DeepSeek Harness 会话的磁盘数据，支持侧栏单条删除、跨工作区批量删除、全选与 Delete 快捷删除。Single & bulk permanent session deletion for DSH.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "harness",
+    "session",
+    "delete",
+    "bulk-delete",
+    "cleanup",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "author": "bingzhu44-blip",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "dsh.plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingzhu44-blip/dsh-brutal-delete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bingzhu44-blip/dsh-brutal-delete/issues"
+  },
+  "homepage": "https://github.com/bingzhu44-blip/dsh-brutal-delete#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-api-workspace-controller"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dsh-brutal-delete",
+  "description": "Permanently delete DeepSeek Harness conversations from the sidebar",
+  "version": "0.1.0",
+  "entry": {
+    "name": "dsh-brutal-delete",
+    "inject": []
+  },
+  "client": {
+    "platform": "web"
+  }
+}
