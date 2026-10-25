@@ -31,12 +31,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bingzhu44-blip/dsh-brutal-delete.git"
+    "url": "git+https://github.com/bingzhu44-blip/brutal-monkey.git"
   },
   "bugs": {
-    "url": "https://github.com/bingzhu44-blip/dsh-brutal-delete/issues"
+    "url": "https://github.com/bingzhu44-blip/brutal-monkey/issues"
   },
-  "homepage": "https://github.com/bingzhu44-blip/dsh-brutal-delete#readme",
+  "homepage": "https://github.com/bingzhu44-blip/brutal-monkey#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
