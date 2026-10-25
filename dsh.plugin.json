@@ -1,7 +1,7 @@
 {
   "name": "dsh-brutal-delete",
-  "description": "Permanently delete DeepSeek Harness conversations from the sidebar",
-  "version": "0.1.0",
+  "description": "暴力删除 · 永久删除 DeepSeek Harness 会话的磁盘数据：单条 / 跨工作区批量删除，清理日志、投影缓存、附件与子会话，不可恢复。",
+  "version": "1.0.0",
   "entry": {
     "name": "dsh-brutal-delete",
     "inject": []
