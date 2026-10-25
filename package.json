@@ -1,6 +1,6 @@
 {
   "name": "dsh-brutal-delete",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "暴力删除 · 永久删除 DeepSeek Harness 会话的磁盘数据，支持侧栏单条删除、跨工作区批量删除、全选与 Delete 快捷删除。Single & bulk permanent session deletion for DSH.",
   "keywords": [
     "dsh",
