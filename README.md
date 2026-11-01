@@ -4,6 +4,9 @@
 
 **插件**：dsh暴力删除 · **仓库**：`bingzhu44-blip/brutal-monkey`（暴力猴） · **npm 包**：`dsh-brutal-delete`
 
+[![DSH Plugin Market](https://img.shields.io/badge/DSH%20Market-Session-blue)](https://awesome-dsh-plugin.com/p/bingzhu44-blip/brutal-monkey/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 DSH 自带的「归档」只是把会话行藏起来，对话记录、投影缓存、附件全都原样留在硬盘上。
 这个插件做的是**真删除**——把该会话在三处留下的所有东西一次性清空，删完没有任何残留。
 
@@ -83,15 +86,23 @@ Windows 上 JSONL 后端的写所有权锁是**命名内核信号量**，不是�
 
 ### 方式一：插件市场（推荐）
 
-在 DSH 插件市场中搜索 **`暴力删除`** 或 **`dsh-brutal-delete`**，一键安装。
+已在 **[DSH 插件市场 · Session 分类](https://awesome-dsh-plugin.com/p/bingzhu44-blip/brutal-monkey/)** 上架。
 
-### 方式二：命令行
+搜 **`dsh暴力删除`** 或 **`brutal-monkey`** 即可找到，一键安装。
+
+### 方式二：命令行（从 GitHub 安装）
+
+```bash
+dsh plugin --profile desktop add github:bingzhu44-blip/brutal-monkey
+```
+
+### 方式三：命令行（npm，发布后可用）
 
 ```bash
 dsh plugin --profile desktop add dsh-brutal-delete
 ```
 
-### 方式三：本地开发
+### 方式四：本地开发
 
 在本目录执行，然后在 `%DSH_HOME%\profiles\desktop\package.json` 里声明依赖：
 
